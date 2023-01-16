@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kontaktstyle.css">
+    <link rel="stylesheet" href="navstyle.css">
+</head>
+<body>
+
+<!--MENY/LÄNKAR-->
+<div class="navbar">
+    <a href="index.html">PORTFOLIO</a>
+    <a href="CV.html">CV</a>
+    <a href="personligt_brev.html">PERSONLIGT BREV</a>
+    <a href="projekt.html">PROJEKT</a>
+    <a class="active" href="kontakt.html">KONTAKT</a>
+</div>
+
+<!--FORMULÄR-->
+<div class="contact">
+    <div class="omdig">
+    <form action="/action_page.php">
+        <table>
+            <tr>
+                <th style="font-size:20px;" colspan="2">KONTAKTFORMULÄR</th>
+            </tr>
+            <tr><td></td></tr>
+
+        <tr>
+            <td><label for="fname">Förnamn:</label></td>
+            <td><input type="text" id="fname" name="fname"></td>
+        </tr><br>
+        
+        <tr>
+            <td><label for="lname">Efternamn:</label></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        </tr><br>
+        
+        <tr>
+            <td><label for="tele">Nummer:</label></td>
+            <td><input type="text" id="tele" name="tele"></td>
+        </tr><br>
+        
+        <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+    </table>
+</div>
+<br>
+
+
+<div class="flexbox">
+<div id="one">
+    <p>Vad föredrar du?</p>
+        <input type="radio" id="hallon" name="fav_berry" value="hallon">
+        <label for="hallon">Hallon</label><br>
+        <input type="radio" name="fav_berry" id="blabar" value="blabar">
+        <label for="blabar">Blåbär</label><br>
+        <input type="radio" id="smultron" name="fav_berry" value="smultron">
+        <label for="smultron">Smultron</label>
+</div>
+<div id="two">
+    <p>Vilka språk kan du flytande?</p>
+    <input type="checkbox" name="lang1" id="lang1" value="sve">
+
+    <label for="lang1">Svenska</label><br>
+    <input type="checkbox" name="lang2" id="lang2" value="eng">
+    <label for="lang2">Engelska</label><br>
+    <input type="checkbox" name="lang3" id="lang3" value="fler">
+    <label for="lang3"><em>Många fler...</em></label>
+</div>
+</div><br>
+    <p>Lämna gärna ett meddelande:</p>
+    <textarea name="message" id="message" cols="30" rows="10" style="width:350px; height:170px;"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</div>
+   
+</body>
+</html>

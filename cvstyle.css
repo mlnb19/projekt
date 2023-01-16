@@ -1,0 +1,89 @@
+/*ANSTÄLLNINGAR*/
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.dropdown1 .dropdown-content1 {
+    visibility: hidden;
+    width: 800px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 200%;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    visibility: visible;
+}
+
+/*UTBILDNING*/
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.dropdown2 .dropdown-content2 {
+    visibility: hidden;
+    width: 800px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -188px;
+    left: 278%;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    visibility: visible;
+}
+
+/*KOMPETENS*/
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.dropdown3 .dropdown-content3 {
+    visibility: hidden;
+    width: 800px;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -370px;
+    left: 275%;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    visibility: visible;
+}
